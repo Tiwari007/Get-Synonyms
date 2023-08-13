@@ -1,0 +1,43 @@
+.App{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form{
+  width: 90%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+form input{
+  width: 30%;
+  height: 40px;
+  margin: 0 20px;
+  font-size: 1.6rem;
+}
+
+form button{
+  width: 120px;
+  height: 40px;
+  background-color: rgba(119, 98, 98, 0.781);
+  cursor: pointer;
+}
+
+form button:hover{
+  background-color: rgba(44, 105, 92, 0.781);
+  color: black;
+}
+
+ul{
+  text-align: center;
+  margin: 20px;
+  list-style-type: none;
+}
+li{
+  font-size: 1.5rem;
+}
+
